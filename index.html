@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prueba78</title>
+<meta charset="UTF-8">
+<body>
+	<h1>¡BIENVENIDOS A HAMBURGUESAS TORO!</h1><br>
+	
+	<h2>Hamburguesas clasicas y exoticas</h2>
+<br>
+<form action="registrardatos.php" method="post">
+	<fieldset>
+		<legend>Introduzca sus datos</legend>
+			Nombre:
+			<input type="text" name="Nombre" size="30"><br><br>
+			Apellidos:
+			<input type="text" name="Apellidos" size="30"><br><br>
+			Gmail:
+			<input type="text" name="Gmail" size="30"><br><br>
+			<input type="submit" value="Enviar">
+			</fieldset>
+			<br>
+	<fieldset>
+		<legend>¿Que hamburguesa deseas?</legend>
+		HAMBURGUESAS CLASICAS:
+		<select name="HAMBURGUESAS CLASICAS">
+		<option value="1">Ninguna</option>
+		<option value="2">La clasica</option>
+		<option value="3">Chesse</option>
+		<option value="4">Doble</option>
+		<option value="5">BBQ</option>
+		</select><br><br>
+		CUANTAS QUIERES?!:<br>
+		<input type="radio" name="cantidades clasicas" value="1">1</input><br>
+		<input type="radio" name="cantidades clasicas" value="2">2</input><br>
+		<input type="radio" name="cantidades clasicas" value="3">3</input><br>
+		<input type="radio" name="cantidades clasicas" value="4">4</input><br>
+		<input type="radio" name="cantidades clasicas" value="5">5</input><br>
+		HAMBURGUESAS EXOTICAS:
+		<select name="HAMBURGUESAS EXOTICAS">
+		<option value="1">Ninguna</option>
+		<option value="2">Amazonia</option>
+		<option value="3">Tokio Burguer</option>
+		<option value="4">Serrana</option>
+		<option value="5">Caribeña</option>
+		</select><br><br>
+		CUANTAS QUIERES?!:<br>
+		<input type="radio" name="cantidades exoticas" value="1">1</input><br>
+		<input type="radio" name="cantidades exoticas" value="2">2</input><br>
+		<input type="radio" name="cantidades exoticas" value="3">3</input><br>
+		<input type="radio" name="cantidades exoticas" value="4">4</input><br>
+		<input type="radio" name="cantidades exoticas" value="5">5</input><br>
+		
+		
+		<input type="submit" value="Enviar">
+	</fieldset>
+	<br>
+	<fieldset>
+		<legend>Metodos de pagos</legend>
+		Seleccione su metodo de pago preferido:<br>
+		<input type="radio" name="Metodos de pago" value="1">Paypal</input><br>
+		<input type="radio" name="Metodos de pago" value="2">BBVA</input><br>
+		<input type="radio" name="Metodos de pago" value="3">Santander</input><br><br>
+		<a href="metodo_de_pago.html"><img src="paper-plane_738531.png"></a>
+	</fieldset>
+	</form>
+	<br>
+	<caption>NUESTROS HORARIOS</caption>
+	<table border="1">
+	<tr>
+		<th>LUNES</th><th>MARTES</th><th>MIERCOLES</th><th>JUEVES</th><th>VIERNES</th><th>SABADO</th>
+	</tr>
+	<tr>
+		<td>6PM-11PM</td><td>5PM-10:30PM</td><td>6:30-11PM</td><td>7PM-12PM</td><td>6PM-11PM</td><td>8PM-1AM</td>
+	</tr>
+	</table>
+	<br>
+	COMENTARIOS:<br>
+	<textarea name="comentarios" cols="60" rows="10">Introduce tus opiniones</textarea>
+	<input type="submit" value="Enviar">
+	</body>
+	</html>
+			
